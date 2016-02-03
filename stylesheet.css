@@ -1,0 +1,40 @@
+@font-face {
+	font-family: Ostrich;
+	src: url(fonts/ostrich-regular.ttf);
+}
+
+#header {
+	height: 200px;
+	background-image: url('images/tree_bark/tree_bark/tree_bark.png');
+	background-color: gray;
+}
+
+.articleheader {
+	display: inline-block;
+}
+
+h1 {
+	font-family: Ostrich;
+	font-size: 5em;
+	text-shadow: 0px 0px .5px #000000;
+	padding-top: 20px;
+}
+
+h2 {
+	font-family: Ostrich;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	margin-right: 8px;
+}
+
+img {
+	float: left;
+	margin: 5px;
+	width: 50%;
+}
