@@ -3,6 +3,12 @@
 	src: url(fonts/ostrich-regular.ttf);
 }
 
+@font-face {
+	font-family: Ostrichbold;
+	src: url(fonts/ostrich-bold.ttf);
+}
+
+
 #header {
 	height: 200px;
 	background-image: url('images/tree_bark/tree_bark/tree_bark.png');
@@ -14,13 +20,13 @@
 }
 
 h1 {
-	font-family: Ostrich;
+	font-family: Ostrichbold;
 	font-size: 5em;
-	text-shadow: 0px 0px .5px #000000;
-	padding-top: 20px;
+	text-shadow: 0px 0px .5px #FFFFFF;
+	padding-top: 30px;
 }
 
-h2 {
+h2, h3 {
 	font-family: Ostrich;
 }
 
@@ -31,10 +37,24 @@ nav li {
 nav li a {
 	text-decoration: none;
 	margin-right: 8px;
+	color: #ff1a75;
+}
+
+a:hover {
+	color: #00b35a;
 }
 
 img {
 	float: left;
 	margin: 5px;
 	width: 50%;
+}
+
+#footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+ul li {
+	list-style-type: none;
 }
